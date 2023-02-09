@@ -6,9 +6,8 @@ import { SubHeading } from "./components/SubHeadingComponent/SubHeading";
 const App = () => {
     return (
         <div>
-            <h1>Hello World!</h1>
-            <SubHeading />
             <NavBar />
+            <SubHeading />
             <Footer />
         </div>
     )
