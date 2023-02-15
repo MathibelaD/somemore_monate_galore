@@ -80,7 +80,7 @@
 }
 
 .p__opensans {
-  font-family: var(--font-alt);
+  font-family: 'Open Sans', sans-serif;;
   color: white;
   font-weight: 400;
   letter-spacing: 0.04em;

@@ -22,6 +22,7 @@ import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import SomeMoreLogo from '../assets/SomeMoreLogo.jpg';
 import headerImage from '../assets/headerImage.jpg';
+import knifeSpoom from '../assets/knifeSpoon.png';
 
 export default {
   bg,
@@ -47,5 +48,6 @@ export default {
   quote,
   gericht,
   SomeMoreLogo,
-  headerImage
+  headerImage,
+  knifeSpoom
 };
