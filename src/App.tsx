@@ -1,16 +1,22 @@
-import React from "react";
-import { Footer } from "./components/FooterComponent/Footer";
-import { NavBar } from "./components/NavBarComponent/NavBar";
-import { SubHeading } from "./components/SubHeadingComponent/SubHeading";
+import React from 'react';
 
-const App = () => {
-    return (
-        <div>
-            <NavBar />
-            <SubHeading />
-            <Footer />
-        </div>
-    )
-}
+import './App.css';
+import { NavBar } from './components/NavBarComponent/NavBar';
+import { Header } from './Container/Header/header';
+
+const App = () => (
+  <div>
+    <NavBar />
+    <Header />
+    {/* <AboutUs /> */}
+    {/* <SpecialMenu />
+    <Chef />
+    <Intro />
+    <Laurels />
+    <Gallery />
+    <FindUs />
+    <Footer /> */}
+  </div>
+);
 
 export default App;
