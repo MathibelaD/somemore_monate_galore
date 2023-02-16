@@ -49,6 +49,9 @@
     cursor: pointer;
 }
 
+.footer_icons {
+    color: white;
+}
 .app__footer-links_icons svg:hover {
     color: goldenrod;
 }

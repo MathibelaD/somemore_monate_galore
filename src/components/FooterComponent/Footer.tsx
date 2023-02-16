@@ -1,5 +1,6 @@
 import React from "react"
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import { FiPhone, FiMapPin } from "react-icons/fi";
 import { images } from "../../constants";
 import "./footerCss.css"
 
@@ -12,15 +13,15 @@ export const Footer = () => {
     <Newsletter /> */}
 
     <div className="app__footer-links">
-      <div className="app__footer-links_contact">
+      <div className="app__footer-links_contact footer_icons">
         <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans">233 Block W, Soshanguve 0152</p>
-        <p className="p__opensans">+27 61 994 4187</p>
+        <div className="flex ml-36"><FiMapPin /><p className="p__opensans ml-2">233 Block W, Soshanguve 0152</p></div>
+        <div className="flex ml-36"><FiPhone /><p className="p__opensans ml-2">+27 61 994 4187</p></div>
         <img src={images.spoon} className="spoon__img ml-36" style={{ marginTop: 15 }} alt=""/>
         <div className="app__footer-links_icons ml-36 grid-flow-col flex gap-3 md:place-self-center md:justify-self-end">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+          <a href="https://www.facebook.com/profile.php?id=100089768165547"><FiFacebook /></a>
+          <a href="www.twitter.com"><FiTwitter /></a>
+          <a href="www.instagram.com"><FiInstagram /></a>
         </div>
       </div>
 
