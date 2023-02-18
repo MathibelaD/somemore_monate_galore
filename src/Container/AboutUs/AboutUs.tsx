@@ -20,10 +20,7 @@ export const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
-      <div className="vl"></div>
-        {/* <img src={images.knife} alt="about_knife" /> */}
-        {/* <MdOutlineRestaurantMenu color="#fff"  size={100}/> */}
-        
+      <div className="vl"></div>    
       </div>
 
       <div className="app__aboutus-content_history">

@@ -1,35 +1,32 @@
 import React from 'react';
 
 import { SubHeading, MenuItem } from '../../components'
-import { data, images } from '../../constants';
+import { data } from '../../constants';
 import './SpecialMenuCss.css';
 
 export const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title">
       <SubHeading title="Menu that fits your palatte" />
-      <h1 className="headtext__cormorant">Today&apos;s Special</h1>
+      <h1 className="headtext__cormorant">Menu</h1>
     </div>
 
     <div className="app__specialMenu-menu">
-      <div className="app__specialMenu-menu_wine  flex__center">
-        <p className="app__specialMenu-menu_heading">Wine & Beer</p>
+      <div className="app__specialMenu-menu_kota  flex__center">
+        <p className="app__specialMenu-menu_heading">Kota</p>
         <div className="app__specialMenu_menu_items">
-          {data.wines.map((wine, index) => (
-            <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} />
+          {data.Kota.map((kota, index) => (
+            <MenuItem key={kota.title + index} title={kota.title} price={kota.price} tags={kota.tags} />
           ))}
         </div>
       </div>
+      {/* <div className="vl"></div> */}
 
-      <div className="app__specialMenu-menu_img">
-        <img src={images.menu} alt="menu__img" />
-      </div>
-
-      <div className="app__specialMenu-menu_cocktails  flex__center">
-        <p className="app__specialMenu-menu_heading">Cocktails</p>
+      <div className="app__specialMenu-menu_sandwichs  flex__center">
+        <p className="app__specialMenu-menu_heading">Sandwich</p>
         <div className="app__specialMenu_menu_items">
-          {data.cocktails.map((cocktail, index) => (
-            <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} />
+          {data.Sandwich.map((sandwich, index) => (
+            <MenuItem key={sandwich.title + index} title={sandwich.title} price={sandwich.price} tags={sandwich.tags} />
           ))}
         </div>
       </div>

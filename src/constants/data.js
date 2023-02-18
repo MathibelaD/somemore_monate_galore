@@ -1,82 +1,61 @@
-import images from './images';
+// import images from './images';
 
-const wines = [
+const Kota = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Basic',
+    price: 'R12',
+    tags: 'Chips | Polony',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Cheese Burger',
+    price: 'R22',
+    tags: 'Chips | Polony | Cheese | Burger',
   },
   {
     title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    price: 'R18',
+    tags: 'Chips | Polony | viaana | cheese ',
   },
   {
     title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    price: 'R20',
+    tags: 'Chips | Polony | Russian ',
   },
   {
     title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    price: 'R55',
+    tags: 'Chips | Polony | Eggs | cheese | Russian',
   },
 ];
 
-const cocktails = [
+const Sandwich = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
+    title: 'Breakfast',
+    price: 'R20',
     tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
+    title: "Lunch Box",
+    price: 'R16',
     tags: 'Dark rum | Ginger beer | Slice of lime',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
+    title: 'Platter',
+    price: 'R10',
     tags: 'Rum | Citrus juice | Sugar',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
+    title: 'fish & Chips',
+    price: 'R31',
     tags: 'Bourbon | Brown sugar | Angostura Bitters',
   },
   {
-    title: 'Negroni',
-    price: '$26',
+    title: 'patty Cream',
+    price: 'R26',
     tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
   },
 ];
 
-const awards = [
-  {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-];
 
-export default { wines, cocktails, awards };
+
+export default { Kota, Sandwich };
