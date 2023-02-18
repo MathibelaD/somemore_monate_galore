@@ -5,7 +5,7 @@ import { data } from '../../constants';
 import './SpecialMenuCss.css';
 
 export const SpecialMenu = () => (
-  <div className="app__specialMenu flex__center section__padding" id="menu">
+  <div className="app__specialMenu flex__center section__padding app__bg" id="menu">
     <div className="app__specialMenu-title">
       <SubHeading title="Menu that fits your palatte" />
       <h1 className="headtext__cormorant">Menu</h1>
@@ -32,7 +32,7 @@ export const SpecialMenu = () => (
     </div>
 
     <div style={{ marginTop: 15 }}>
-      <button type="button" className="text-black p-2 bg-gray-100">View More</button>
+      <button type="button" className="customButton">View More</button>
     </div>
   </div>
 );
