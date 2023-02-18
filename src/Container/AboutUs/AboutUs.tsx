@@ -3,9 +3,12 @@ import { MdOutlineRestaurantMenu } from 'react-icons/md';
 
 
 import { images } from '../../constants';
+import '../../somemoreCss.css'
 import './AboutUsCss.css';
 
-export const AboutUs = () => (
+export const AboutUs = () => {
+
+  return (
   <div className="app__aboutus app__bg flex__center section__padding" id="about">
     <div className="app__aboutus-overlay flex__center">
       {/* <img src={images.G} alt="G_overlay" /> */}
@@ -35,4 +38,4 @@ export const AboutUs = () => (
       </div>
     </div>
   </div>
-);
+)};

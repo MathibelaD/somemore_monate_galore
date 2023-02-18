@@ -20,8 +20,8 @@ export const NavBar = () => {
             <ul className="app__navbar_links">
                 <li className="p__opensans"><a href="#home">Home</a></li>
                 <li className="p__opensans"><a href="#Menu">Menu</a></li>
-                <li className="p__opensans"><a href="#about">AboutUs</a></li>
                 <li className="p__opensans"><a href="#gallery">Gallery</a></li>
+                <li className="p__opensans"><a href="#about">AboutUs</a></li>
                 <li className="p__opensans"><a href="#contact">Contact</a></li>
             </ul>
             <div className="app__navbar_login">
