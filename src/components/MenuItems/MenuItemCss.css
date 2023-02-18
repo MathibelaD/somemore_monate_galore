@@ -24,7 +24,7 @@
 .app__menuitem-dash {
     width: 90px;
     height: 1px;
-    background: var(--color-golden);
+    background: goldenrod;
     margin: 0 1rem;
 }
 
@@ -32,4 +32,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    color: white;
+    margin-right: 10px;
 }

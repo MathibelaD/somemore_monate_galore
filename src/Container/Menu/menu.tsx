@@ -12,7 +12,7 @@ export const SpecialMenu = () => (
     </div>
 
     <div className="app__specialMenu-menu">
-      <div className="app__specialMenu-menu_kota  flex__center">
+      <div className="app__specialMenu-menu_kota">
         <p className="app__specialMenu-menu_heading">Kota</p>
         <div className="app__specialMenu_menu_items">
           {data.Kota.map((kota, index) => (
@@ -20,9 +20,8 @@ export const SpecialMenu = () => (
           ))}
         </div>
       </div>
-      {/* <div className="vl"></div> */}
 
-      <div className="app__specialMenu-menu_sandwichs  flex__center">
+      <div className="app__specialMenu-menu_sandwichs">
         <p className="app__specialMenu-menu_heading">Sandwich</p>
         <div className="app__specialMenu_menu_items">
           {data.Sandwich.map((sandwich, index) => (
@@ -33,7 +32,7 @@ export const SpecialMenu = () => (
     </div>
 
     <div style={{ marginTop: 15 }}>
-      <button type="button" className="custom__button">View More</button>
+      <button type="button" className="text-gold bg-white rounded-md">View More</button>
     </div>
   </div>
 );

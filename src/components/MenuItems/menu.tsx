@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './MenuItemCss.css';
+import '../../App.css'
 
 export const MenuItem = ({ title, price, tags }) => (
   <div className="app__menuitem">
