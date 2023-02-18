@@ -7,9 +7,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1b1a1a;
+    background-color: black;
     color: white;
-
+    position: fixed ;
     padding: 1rem 2rem;
 }
 

@@ -19,27 +19,29 @@ export const NavBar = () => {
             </div>
             <ul className="app__navbar_links">
                 <li className="p__opensans"><a href="#home">Home</a></li>
-                <li className="p__opensans"><a href="#about">AboutUs</a></li>
                 <li className="p__opensans"><a href="#Menu">Menu</a></li>
+                <li className="p__opensans"><a href="#about">AboutUs</a></li>
+                <li className="p__opensans"><a href="#gallery">Gallery</a></li>
                 <li className="p__opensans"><a href="#contact">Contact</a></li>
             </ul>
             <div className="app__navbar_login">
-                <a href="#login" className="">Log In / Register</a>
-                <div />
                 <a href="/" className="">Order Food</a>
+                <div />
+                <a href="#login" className="">Log In</a>
+                
+                
             </div>
             <div className="app__navbar_smallscreen">
                 {<GiHamburgerMenu color="#fff" fontSize={27} onClick={() => {setToggleMenu(true)}} />}
                 {toggleMenu && (
                 <><div className="app__navbar_smallscreen_overlay flex__center slide-bottom">
                         <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
-                    </div>
-                    <ul className="app__navbar_smallscreen_links">
+                    </div><ul className="app__navbar_smallscreen_links">
                             <li><a href="#home">Home</a></li>
                             <li><a href="#about">AboutUs</a></li>
                             <li><a href="#Menu">Menu</a></li>
                             <li><a href="#contact">Contact</a></li>
-                    </ul></>)}
+                        </ul></>)}
             </div>
         </nav>
     )

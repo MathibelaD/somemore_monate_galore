@@ -3,19 +3,23 @@ import { SubHeading } from '../../components/SubHeadingComponent/SubHeading';
 
 
 import { images } from '../../constants';
+import '../../../src/somemoreCss.css'
 import './headerCss.css';
 
-export const Header = () => (
+export const Header = () => {
+
+  return (
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="text-white">
       <SubHeading title="Monate_Galore" />
-      <h1 className="app__header-h1">The joy in FastFood</h1>
-      <p className="p__opensans" style={{ margin: '1rem 0' }}>Enjoy the quality life of kota in your hood made with love and a little bit of korobela</p>
-      <button type="button" className="custom__button">Explore Menu</button>
+      <h1 className="app__header-h1">FastFood Resturant</h1>
+      <p className="p__opensans" style={{ margin: '2rem 0' }}>Enjoy the quality life of kota in your hood made with love and a little bit of korobela</p>
+      <button type="button" className="text-black p-2 bg-gray-100">Explore Menu</button>
     </div>
 
-    <div className="app__wrapper_img-reverse h-96 w-80">
+    <div className=" mt-48 ml-3 border-solid border-4 border-yellow-500">
       <img src={images.headerImage} alt="header_img" />
     </div>
   </div>
-);
+  )
+  };

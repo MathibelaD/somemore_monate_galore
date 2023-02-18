@@ -8,7 +8,7 @@ export const Footer = () => {
     const date = new Date();
     return (
         <>
-  <div className="app__footer section__padding" id="login">
+  <div className="app__footer section__padding" id="contact">
     {/* <FooterOverlay />
     <Newsletter /> */}
 
@@ -27,10 +27,11 @@ export const Footer = () => {
 
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Working Hours</h1>
-        <p className="p__opensans">Monday-Friday:</p>
+        <p className="p__opensans">Monday-Thursday:</p>
         <p className="p__opensans">10:00 am - 09:00 pm</p>
-        <p className="p__opensans">Saturday-Sunday:</p>
+        <p className="p__opensans">Friday-Saturday:</p>
         <p className="p__opensans">10:00 am - 22:00 pm</p>
+        <p className="p__opensans">Sundays: Closed</p>
       </div>
     </div>
 

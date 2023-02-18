@@ -32,7 +32,7 @@ export const SpecialMenu = () => (
     </div>
 
     <div style={{ marginTop: 15 }}>
-      <button type="button" className="text-gold bg-white rounded-md">View More</button>
+      <button type="button" className="text-black p-2 bg-gray-100">View More</button>
     </div>
   </div>
 );
