@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdOutlineRestaurantMenu } from 'react-icons/md';
+// import { MdOutlineRestaurantMenu } from 'react-icons/md';
 
 
 import { images } from '../../constants';

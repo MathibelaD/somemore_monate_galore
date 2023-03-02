@@ -6,20 +6,26 @@ import { images } from '../../constants';
 // import { images } from '../../constants';
 import './GalleryCss.css';
 import '../../somemoreCss.css'
+import { Photos } from './photos/photo';
+import { useNavigate, useNavigation } from 'react-router-dom';
 
 export const Gallery = () => {
   const scrollRef = React.useRef(null);
+  const navigate = useNavigate();
 
   const scroll = (direction) => {
     const { current } = scrollRef;
 
-    // if (current !== null){
-    // if (direction === 'left') {
-    //   current.scrollLeft -= 300;
-    // } else {
-    //   current.scrollLeft += 300;
-    // }
+  //   if (current !== null){
+  //   if (direction === 'left') {
+  //     current.scrollLeft -= 300;
+  //   } else {
+  //     current.scrollLeft += 300;
+  //   }
   // }
+  // const navigateTo = (route) => {
+  //   navigate('/');
+  // };
   }
   return (
     <div className="app__gallery flex__center">
@@ -28,7 +34,7 @@ export const Gallery = () => {
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
-        <button type="button" className="customButton">View More</button>
+        <button type="button" className="customButton" onClick={() => navigate("/gallery") }>View More</button>
       </div>
       <div id="carouselExampleIndicators" className="app__gallery-images" data-bs-ride="carousel"> 
   <div className="app__gallery-images_container" ref={scrollRef}>
